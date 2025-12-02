@@ -8,19 +8,19 @@
 	<div class="mx-auto max-w-7xl px-4 py-12 sm:px-6 sm:py-16 lg:px-8 lg:py-28">
 		<div class="grid items-center gap-10 lg:grid-cols-2">
 			<div class="text-center lg:text-left">
-				<div class="badge sm:mb-4">Pondok Pesantren</div>
-				<img src={Logo} alt="Logo Arrahman" class="mx-auto  w-56 sm:w-64 md:w-72 max-w-full h-auto lg:hidden" />
+				<div class="badge sm:mb-4">Pondok Pesantren Tahfizh</div>
+				<img src={Logo} alt="Logo Baitul Qur'an Camba" class="mx-auto  w-56 sm:w-64 md:w-72 max-w-full h-auto lg:hidden" />
 
 				<h1
-					class="text-4xl font-[var(--font-display)] font-bold tracking-tight sm:text-5xl lg:text-6xl"
+					class="text-3xl font-[var(--font-display)] font-bold tracking-tight sm:text-5xl lg:text-6xl"
 				>
-					Arrahman
+					Baitul Qur'an Camba
 				</h1>
-				<p class="mx-auto mt-4 max-w-prose text-lg text-muted lg:mx-0">
+				<p class="mx-auto mt-4 max-w-prose text-base text-muted sm:text-lg lg:mx-0">
 					Mencetak generasi berilmu, berakhlak mulia, dan siap mengabdi untuk umat.
 				</p>
 				<div class="mt-8 flex flex-col gap-3 sm:flex-row sm:justify-center lg:justify-start">
-					<a href="#daftar" class="btn">Daftar Sekarang</a>
+					<a href="https://forms.gle/wBK7PpPYVe6uyJqSA" target="_blank" rel="noopener noreferrer" class="btn">Daftar Sekarang</a>
 					<a href="#program" class="btn-outline">Lihat Program</a>
 				</div>
 				<div
@@ -41,7 +41,7 @@
 				<div
 					class="aspect-[4/3] rounded-2xl border border-border bg-gradient-to-br from-brand-400/20 to-accent-400/20 shadow-sm"
 				>
-					<img src={Logo} alt="Logo Arrahman" class="h-full w-full object-contain p-6" />
+					<img src={Logo} alt="Logo Baitul Qur'an Camba" class="h-full w-full object-contain p-6" />
 			</div>
 				<!-- Ganti div di atas dengan <img> bila ada aset hero -->
 			</div>

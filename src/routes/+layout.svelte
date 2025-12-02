@@ -4,12 +4,12 @@
 
 	const siteUrl = 'https://baitulqurancamba.com';
 	const siteName = 'Baitul Quran Camba';
-	const title = `${siteName} | Pondok Pesantren Arrahman`;
+	const title = `${siteName} | Pondok Pesantren Tahfizh Baitul Qur'an Camba`;
 	const description =
-		'Pondok Pesantren Arrahman Baitul Quran Camba di Maros yang fokus membina hafiz-hafizah Al-Qur’an, pendidikan adab, dan kepemimpinan santri.';
+		`Pondok Pesantren Tahfizh Baitul Qur'an Camba di Maros yang fokus membina hafiz-hafizah Al-Qur'an, pendidikan adab, dan kepemimpinan santri.`;
 	const keywords =
-		'pondok pesantren, pesantren tahfidz, baitul quran camba, pondok arrahman, santri maros, sekolah islam, tahfidzul quran';
-	const author = 'Baitul Quran Camba';
+		'pondok pesantren, pesantren tahfidz, baitul quran camba, pondok pesantren camba, santri maros, sekolah islam, tahfidzul quran';
+	const author = `Baitul Qur'an Camba`;
 	const socialImage = `${siteUrl}/logo.png`;
 
 	const schemaJson = JSON.stringify(
@@ -17,7 +17,7 @@
 			'@context': 'https://schema.org',
 			'@type': 'EducationalOrganization',
 			name: siteName,
-			alternateName: 'Pondok Pesantren Arrahman',
+			alternateName: `Pondok Pesantren Tahfizh Baitul Qur'an Camba`,
 			url: siteUrl,
 			logo: socialImage,
 			description,

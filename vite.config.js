@@ -4,6 +4,14 @@ import { sveltekit } from '@sveltejs/kit/vite';
 
 export default defineConfig({
 	plugins: [tailwindcss(), sveltekit()],
+	server: {
+		host: '0.0.0.0', // Mengizinkan akses dari network
+		port: 5173,
+		strictPort: false
+	},
+	optimizeDeps: {
+		include: ['lucide-svelte']
+	},
 	test: {
 		expect: { requireAssertions: true },
 		projects: [

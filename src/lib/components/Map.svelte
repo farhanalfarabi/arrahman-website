@@ -1,5 +1,5 @@
 <script>
-	export let query = 'Pondok Pesantren Arrahman';
+	export let query = 'Pondok Pesantren Tahfizh Baitul Qur\'an Camba';
 	export let zoom = 15;
 	const src = `https://maps.google.com/maps?q=${encodeURIComponent(query)}&t=&z=${zoom}&ie=UTF8&iwloc=&output=embed`;
 </script>
@@ -10,12 +10,12 @@
 			<h2 class="text-3xl font-[var(--font-display)] font-bold tracking-tight sm:text-4xl">
 				Lokasi Pondok
 			</h2>
-			<p class="mt-3 text-muted">Temukan lokasi Pondok Pesantren Arrahman pada peta di bawah ini.</p>
+			<p class="mt-3 text-muted">Temukan lokasi Pondok Pesantren Tahfizh Baitul Qur'an Camba pada peta di bawah ini.</p>
 		</div>
 		<div class="mt-8 overflow-hidden rounded-2xl border border-border shadow-sm">
 			<div class="aspect-[16/9]">
 				<iframe
-					title="Lokasi Pondok Pesantren Arrahman"
+					title="Lokasi Pondok Pesantren Tahfizh Baitul Qur'an Camba"
 					src={src}
 					width="100%"
 					height="100%"

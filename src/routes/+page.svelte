@@ -1,6 +1,10 @@
 <script>
 	import Navbar from '$lib/components/Navbar.svelte';
 	import Hero from '$lib/components/Hero.svelte';
+	import Profile from '$lib/components/Profile.svelte';
+	import Leaders from '$lib/components/Leaders.svelte';
+	import Educators from '$lib/components/Educators.svelte';
+	import Advantages from '$lib/components/Advantages.svelte';
 	import VisionMission from '$lib/components/VisionMission.svelte';
 	import Features from '$lib/components/Features.svelte';
 	import Programs from '$lib/components/Programs.svelte';
@@ -13,10 +17,14 @@
 <Navbar />
 <main>
 	<Hero />
+	<Profile />
 	<VisionMission />
+	<Leaders />
+	<Educators />
+	<Advantages />
 	<Features />
-	<Programs />
-	<Testimonials />
+	<!-- <Programs /> -->
+	<!-- <Testimonials /> -->
 	<CTA />
  	<Map query="Tahfizh Baitul Qur'an Camba, Kab. Maros, Sulawesi Selatan" zoom={14} />
 </main>
