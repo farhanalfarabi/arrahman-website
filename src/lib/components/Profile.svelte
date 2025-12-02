@@ -28,7 +28,7 @@
 						<div>
 							<h3 class="text-base font-semibold text-foreground sm:text-lg">Berdiri Sejak</h3>
 							<p class="mt-1 text-xl font-bold text-brand-700 sm:text-2xl">2016</p>
-							<p class="mt-1 text-sm text-muted">Lebih dari 8 tahun mengabdi</p>
+							<p class="mt-1 text-sm text-muted">Lebih dari 8 tahun mengabdi untuk negara</p>
 						</div>
 					</div>
 				</div>
