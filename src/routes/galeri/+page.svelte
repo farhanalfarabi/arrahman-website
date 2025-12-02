@@ -3,6 +3,32 @@
 	import Footer from '$lib/components/Footer.svelte';
 	import GalleryCard from '$lib/components/GalleryCard.svelte';
 	import YearGallery from '$lib/components/YearGallery.svelte';
+	import { page } from '$app/stores';
+
+	const siteUrl = 'https://baitulqurancamba.com';
+	const siteName = 'Baitul Quran Camba';
+
+	// Structured data untuk halaman galeri
+	const gallerySchema = JSON.stringify(
+		{
+			'@context': 'https://schema.org',
+			'@type': 'ImageGallery',
+			name: 'Galeri Santri - Pondok Pesantren Tahfizh Baitul Qur\'an Camba',
+			description:
+				'Dokumentasi kegiatan santri Pondok Pesantren Tahfizh Baitul Qur\'an Camba termasuk fasilitas, program unggulan, ekstrakurikuler, dan aktivitas santri.',
+			url: `${siteUrl}/galeri`,
+			mainEntityOfPage: {
+				'@type': 'WebPage',
+				'@id': `${siteUrl}/galeri`
+			},
+			publisher: {
+				'@type': 'EducationalOrganization',
+				name: siteName
+			}
+		},
+		null,
+		2
+	).replace(/</g, '\\u003c');
 
 	// Import semua gambar dari folder pondok
 	import masjidImg from '$lib/assets/pondok/masjid.jpg';
@@ -264,6 +290,10 @@
 		},
 	];
 </script>
+
+<svelte:head>
+	{@html `<script type="application/ld+json">${gallerySchema}</script>`}
+</svelte:head>
 
 <Navbar />
 
